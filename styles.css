@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at top right, #3a1c71, #d76d77, #ffaf7b);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00d2ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.exercise {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #00d2ff;
+    border-bottom: 2px solid #00d2ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+div, ul, p {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#uniqueElement {
+    background-color: #ff007f;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px solid #ff007f;
+}
+
+.colorChange {
+    background-color: #2e2e2e;
+    color: #00ff87;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+p.customClass {
+    color: #ffbb00;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d2ff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00aaff;
+}

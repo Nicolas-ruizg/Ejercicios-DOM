@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios DOM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manipulación del DOM</h1>
+    </header>
+    <section>
+        
+        <div class="exercise">
+            <h2>1. ¿Qué es el DOM?</h2>
+            <p>
+                El Document Object Model (DOM) es una interfaz de programación para documentos HTML y XML. Representa la estructura de un documento como un árbol de nodos, donde cada nodo corresponde a una parte del documento (como un elemento, atributo o texto). El DOM permite a los lenguajes de programación interactuar y manipular el contenido, la estructura y el estilo de un documento de manera dinámica.
+            </p>
+            <p>
+                En otras palabras, el DOM convierte el documento en un objeto que los programas pueden manipular. Cada elemento HTML se convierte en un objeto en el DOM, y las propiedades y métodos de esos objetos permiten a los desarrolladores modificar la estructura del documento y el contenido en tiempo real. 
+            </p>
+            <p>
+                Por ejemplo, cuando utilizamos JavaScript para cambiar el contenido de una etiqueta `<div>`, estamos manipulando el DOM. El DOM proporciona una forma estándar de interactuar con los documentos y es esencial para la creación de sitios web interactivos.
+            </p>
+        </div>
+
+        
+        <div class="exercise">
+            <h2>2.1. Uso de getElementById()</h2>
+            <p>Este método selecciona un elemento único del DOM usando su ID.</p>
+            <div id="uniqueElement">Texto Original</div>
+        </div>
+
+        
+        <div class="exercise">
+            <h2>2.2. Uso de getElementsByClassName()</h2>
+            <p>Este método selecciona todos los elementos del DOM que tienen una clase específica.</p>
+            <div class="colorChange">Elemento 1</div>
+            <div class="colorChange">Elemento 2</div>
+        </div>
+
+        
+        <div class="exercise">
+            <h2>2.3. Uso de getElementsByTagName()</h2>
+            <p>Este método selecciona todos los elementos del DOM que tienen una etiqueta específica.</p>
+            <ul id="myList">
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+        </div>
+
+        
+        <div class="exercise">
+            <h2>2.4. Uso de querySelector()</h2>
+            <p>Este método selecciona el primer elemento del DOM que coincide con un selector CSS dado.</p>
+            <form>
+                <input type="text" placeholder="Escribe algo aquí...">
+            </form>
+        </div>
+
+        
+        <div class="exercise">
+            <h2>2.5. Uso de querySelectorAll()</h2>
+            <p>Este método selecciona todos los elementos del DOM que coinciden con un selector CSS dado.</p>
+            <p>Párrafo 1</p>
+            <p>Párrafo 2</p>
+            <p>Párrafo 3</p>
+        </div>
+
+
+        <div class="exercise">
+            <button id="executeChanges">Ejecutar Cambios</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
